@@ -6,8 +6,7 @@ import { Button } from "@/components/ui/button";
 
 import ProposalForm from "@/components/proposal-form";
 
-import ConnectWalletButton from "@/components/connect-wallet-button";
-
+import ConnectWallet from "@/components/connect-wallet";
 import { ArrowLeft } from "lucide-react";
 
 import Link from "next/link";
@@ -47,7 +46,7 @@ export default function CreateProposalPage() {
                 You need to connect your wallet to create a proposal.
               </p>
 
-              <ConnectWalletButton />
+              <ConnectWallet />
             </div>
           )}
         </Card>
